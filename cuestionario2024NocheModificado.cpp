@@ -161,15 +161,15 @@ main()
 					aleatorio=rand()%11;
 					switch(aleatorio) 
 						{
-						case 1:	
-							cout<<"1-¿Para que sistemas son diseñadas principalmente la mayoría de aplicaciones en  la actualidad?"<<endl;
-							cout<<"a)android"<<endl;
-							cout<<"b)windows"<<endl;
-							cout<<"c)ios"<<endl;
-							cout<<"d)a y c son correctas"<<endl;
+							case 1:	
+							cout<<"¿Que es el informe de requisitos?"<<endl;
+							cout<<"a)Documento que describe elementos necesarios de un proyecto o sistema"<<endl;
+							cout<<"b)Documento que rastrea los requisitos del usuario con los casos de prueba"<<endl;
+							cout<<"c)Documento que permite conocer los dias vividos de una persona"<<endl;
+							cout<<"d)Documento que muestra las competencias que debemos ver en el primer trimestre"<<endl;
 							cin>>respuesta;
 	 
-						    if(respuesta=='d')
+						    if(respuesta=='a')
 								{
 							  		cout<<"la respuesta es correcta"<<endl;
 							  		contap=contap+1;
@@ -177,15 +177,36 @@ main()
 							else
 								{
 									cout<<"La respuesta es incorrecta"<<endl; 
+									cout<<"Documento que describe elementos necesarios de un proyecto o sistema"<<endl;
 									contan=contan+1;
 								}
 						break;
 						case 2:		 
-							cout<<"2-¿Que lenguaje de programacion es comunmente usado para las aplicaciones moviles?"<<endl;
-							cout<<"a)Python"<<endl;
-							cout<<"b)java"<<endl;
-							cout<<"c)C#"<<endl;
-							cout<<"d)PHP"<<endl;
+							cout<<"¿Que debe contener un informe de requisitos"<<endl;
+							cout<<"a)Normativa legal del proceso de aprendizaje"<<endl;
+							cout<<"b)Informacion sobre el desempeño de la organizacion en sus diferentes areas"<<endl;
+							cout<<"c)Descripcion del producto, requisitos del usuario, requerimientos ambientales, estandares e informacion adicional"<<endl;
+							cout<<"d)Marco teorico y graficos"<<endl;
+							cin>>respuesta;
+	 
+						    if(respuesta=='c')
+								{
+							  		cout<<"la respuesta es correcta"<<endl;
+							  		contap=contap+1;
+						    	}
+							else
+								{
+									cout<<"La respuesta es incorrecta"<<endl; 
+									cout<<"Descripcion del producto, requisitos del usuario, requerimientos ambientales, estandares e informacion adicional"<<endl;
+									contan=contan+1;
+								}
+						break;
+						case 3:		
+							cout<<"¿Que es la plantilla ERS?"<<endl;
+							cout<<"a)Lenguaje de programacion"<<endl;
+							cout<<"b)Contrato entre la empresa desarrolladora y la empresa cliente"<<endl;
+							cout<<"c)Es una tabla de resultados respecto a un juego de voleibol"<<endl;
+							cout<<"d)Dispositivo que permite calcular la densidad del aire"<<endl;
 							cin>>respuesta;
 	 
 						    if(respuesta=='b')
@@ -196,34 +217,16 @@ main()
 							else
 								{
 									cout<<"La respuesta es incorrecta"<<endl; 
-									contan=contan+1;
-								}
-						break;
-						case 3:		
-							cout<<"3-¿Principalmente para que fueron diseñadas las aplicaciones?"<<endl;
-							cout<<"a)Para entretener a las personas"<<endl;
-							cout<<"b)Para controlar el sistema operativo de un equipo de computo"<<endl;
-							cout<<"c)Para facilitar ciertas tareas complejas y hacer mas sencilla la experiencia informatica de las personas"<<endl;
-							cout<<"d)ninguna de las anteriores"<<endl;
-							cin>>respuesta;
-	 
-						    if(respuesta=='c')
-								{
-							  		cout<<"la respuesta es correcta"<<endl;
-							  		contap=contap+1;
-						    	}
-							else
-								{
-									cout<<"La respuesta es incorrecta"<<endl; 
+									cout<<"Contrato entre la empresa desarrolladora y la empresa cliente"<<endl;
 									contan=contan+1;
 								}
 						break;
 						case 4:		
-							cout<<"4-¿Que es una aplicacion movil?"<<endl;
-							cout<<"a)Es una aplicacion diseñada para ejecutarse en un dispositivo movil, que puede er un telefono inteligente o tablet"<<endl;
-							cout<<"b)Una aplicacion movil es lo mismo que una aplicacion web"<<endl;
-							cout<<"c)Es una aplicacion web con gestor de contenidos"<<endl;
-							cout<<"d)ninguna de las anteriores"<<endl;
+							cout<<"¿Que es el estandar IEEE 830?"<<endl;
+							cout<<"a)Guia que establece las caracteristicas que deben cumplir los requerimientos de software en un proceso de desarrollo"<<endl;
+							cout<<"b)Organizacion sin fines de lucro que busca promover las tecnologias"<<endl;
+							cout<<"c)Organismo internacional diseñado para hacer cumplir las leyes"<<endl;
+							cout<<"d)Aplicacion gratuita de mensajeria"<<endl;
 							cin>>respuesta;
 	 
 						    if(respuesta=='a')
@@ -234,91 +237,16 @@ main()
 							else
 								{
 									cout<<"La respuesta es incorrecta"<<endl; 
+									cout<<"Guia que establece las caracteristicas que deben cumplir los requerimientos de software en un proceso de desarrollo"<<endl;
 									contan=contan+1;
 								}
 						break;
 						case 5:
-							cout<<"5-¿Para que es una aplicacion nativa?"<<endl;
-							cout<<"a)Está desarrollada y optimizada específicamente para el sistema operativo determinado y la plataforma de desarrollo del fabricante"<<endl;
-							cout<<"b)Sirve para compartir información con otros sistemas operativos "<<endl;
-							cout<<"c)Sirven para cargar información en el sistema operativo"<<endl;
-							cout<<"d)para  cambiar su contenido, manteniendo el mismo diseño y estilo"<<endl;
-							cin>>respuesta;
-	 
-						    if(respuesta=='a')
-								{
-							  		cout<<"la respuesta es correcta"<<endl;
-							  		contap=contap+1;
-						    	}
-							else
-								{
-									cout<<"La respuesta es incorrecta"<<endl; 
-									contan=contan+1;
-								}
-						break;
-						case 6:	
-							cout<<"6-¿las aplicaciones nativas que se usan en celulares se pueden usar en cuantos sistemas operativo?"<<endl;
-							cout<<"a)un solo sistema operativo"<<endl;
-							cout<<"b)más de 2 sistemas operativos como (Android, iOS y Windows) "<<endl;
-							cout<<"c)todos los sistemas operativos."<<endl;
-							cout<<"d) la respuesta b y c son correctas."<<endl;
-							cin>>respuesta;
-	 
-						    if(respuesta=='a')
-								{
-							  		cout<<"la respuesta es correcta"<<endl;
-							  		contap=contap+1;
-						    	}
-							else
-								{
-									cout<<"La respuesta es incorrecta"<<endl; 
-									contan=contan+1;
-								}
-						break;
-						case 7:	
-							cout<<"7-¿Qué tipo de navegador por defecto viene en los dispositivos moviles android?"<<endl;
-							cout<<"a)OperaMini"<<endl;
-							cout<<"b)Minimo-Mozilla "<<endl;
-							cout<<"c)chrome"<<endl;
-							cout<<"d)NetFront"<<endl;
-							cin>>respuesta;
-	 
-						    if(respuesta=='c')
-								{
-							  		cout<<"la respuesta es correcta"<<endl;
-							  		contap=contap+1;
-						    	}
-							else
-								{
-									cout<<"La respuesta es incorrecta"<<endl; 
-									contan=contan+1;
-								}
-						break;
-						case 8:	
-							cout<<"8-¿Qué factor incide en el desarrollo de aplicaciones móviles?"<<endl;
-							cout<<"a)Plataforma"<<endl;
-							cout<<"b)Sistema Operativo "<<endl;
-							cout<<"c)Dispositivo Móvil"<<endl;
-							cout<<"d)lenguaje de desarrollo"<<endl;
-							cin>>respuesta;
-	 
-						    if(respuesta=='a')
-								{
-							  		cout<<"la respuesta es correcta"<<endl;
-							  		contap=contap+1;
-						    	}
-							else
-								{
-									cout<<"La respuesta es incorrecta"<<endl; 
-									contan=contan+1;
-								}
-						break;
-						case 9:	
-							cout<<"9-¿Cuales son sistemas operativos de moviles?"<<endl;
-							cout<<"a)android"<<endl;
-							cout<<"b)windows"<<endl;
-							cout<<"c)ios"<<endl;
-							cout<<"d)a y c son correctas"<<endl;
+							cout<<"¿Para que sirve el estandar IEEE 830?"<<endl;
+							cout<<"a)Ley que regula el uso de las tecnologias"<<endl;
+							cout<<"b)Test de habilidades psicotecnicas"<<endl;
+							cout<<"c)Documento por el cual se expide D.U.R.S.A.D."<<endl;
+							cout<<"d)Document que proporciona recomendaciones practicas para la especificacion de requerimientos de software"<<endl;
 							cin>>respuesta;
 	 
 						    if(respuesta=='d')
@@ -329,15 +257,56 @@ main()
 							else
 								{
 									cout<<"La respuesta es incorrecta"<<endl; 
+									cout<<"Document que proporciona recomendaciones practicas para la especificacion de requerimientos de software"<<endl;
 									contan=contan+1;
 								}
 						break;
-						case 10:	
-							cout<<"10-¿En donde se alojan los aplicativos moviles y su cache?"<<endl;
-							cout<<"a)En el dispositivo"<<endl;
-							cout<<"b)Aplicativo en la nube cache en el dispositivo"<<endl;
-							cout<<"c)Unicamente en la nube"<<endl;
-							cout<<"d)Hibridamente mitad nube, mitad dispositivo"<<endl;
+						case 6:	
+							cout<<"¿Cual no hace parte del ciclo de vida del desarrollo de software"<<endl;
+							cout<<"a)Planificacion"<<endl;
+							cout<<"b)Creacion"<<endl;
+							cout<<"c)Prueba y despliegue"<<endl;
+							cout<<"d)Compilacion de codigo"<<endl;
+							cin>>respuesta;
+	 
+						    if(respuesta=='d')
+								{
+							  		cout<<"la respuesta es correcta"<<endl;
+							  		contap=contap+1;
+						    	}
+							else
+								{
+									cout<<"La respuesta es incorrecta"<<endl; 
+									cout<<"Compilacion de codigo"<<endl;
+									contan=contan+1;
+								}
+						break;
+						case 7:	
+							cout<<"¿Para que sirven las herramientas de modelado"<<endl;
+							cout<<"a)Para ilustrar un proceso de programacion"<<endl;
+							cout<<"b)Para hacer modelos 3D del requerimiento"<<endl;
+							cout<<"c)Planear fechas de entrega"<<endl;
+							cout<<"d)Plasmar ideas durante el proceso"<<endl;
+							cin>>respuesta;
+	 
+						    if(respuesta=='a')
+								{
+							  		cout<<"la respuesta es correcta"<<endl;
+							  		contap=contap+1;
+						    	}
+							else
+								{
+									cout<<"La respuesta es incorrecta"<<endl; 
+									cout<<"Para ilustrar un proceso de programacion"<<endl;
+									contan=contan+1;
+								}
+						break;
+						case 8:	
+							cout<<"¿Que es arquitectura de software"<<endl;
+							cout<<"a)Maquina virtual para arquitectos"<<endl;
+							cout<<"b)Define la estructura organizacion y relacion entre los componentes del sistema"<<endl;
+							cout<<"c)Programa para realizar graficos"<<endl;
+							cout<<"d)Compilador para el lenguaje de programacion"<<endl;
 							cin>>respuesta;
 	 
 						    if(respuesta=='b')
@@ -348,6 +317,47 @@ main()
 							else
 								{
 									cout<<"La respuesta es incorrecta"<<endl; 
+									cout<<"Define la estructura organizacion y relacion entre los componentes del sistema"<<endl;
+									contan=contan+1;
+								}
+						break;
+						case 9:	
+							cout<<"¿Para que sirve el modelo C4?"<<endl;
+							cout<<"a)Realizar reuniones cliente diseñador"<<endl;
+							cout<<"b)Realizar lluvia de ideas"<<endl;
+							cout<<"c)Modelar la arquitectura de sistemas de software"<<endl;
+							cout<<"d)Todas las anteriores"<<endl;
+							cin>>respuesta;
+	 
+						    if(respuesta=='c')
+								{
+							  		cout<<"la respuesta es correcta"<<endl;
+							  		contap=contap+1;
+						    	}
+							else
+								{
+									cout<<"La respuesta es incorrecta"<<endl; 
+									cout<<"Modelar la arquitectura de sistemas de software"<<endl;
+									contan=contan+1;
+								}
+						break;
+						case 10:	
+							cout<<"¿Cual es la condicion mas importante al momento de realizar la arquitectura de un sistema de software"<<endl;
+							cout<<"a)Logica"<<endl;
+							cout<<"b)Concenso"<<endl;
+							cout<<"c)Comprension"<<endl;
+							cout<<"d)Historia"<<endl;
+							cin>>respuesta;
+	 
+						    if(respuesta=='a')
+								{
+							  		cout<<"la respuesta es correcta"<<endl;
+							  		contap=contap+1;
+						    	}
+							else
+								{
+									cout<<"La respuesta es incorrecta"<<endl; 
+									cout<<"Logica"<<endl;
 									contan=contan+1;
 								}
 						break;
